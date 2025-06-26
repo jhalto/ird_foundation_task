@@ -7,13 +7,13 @@ import 'package:get/get.dart';
 import 'package:ird_foundation_task/constants/app_colors.dart';
 import 'package:ird_foundation_task/constants/app_text_style.dart';
 import 'package:ird_foundation_task/features/book/data/hadith_bn_test.dart';
-import 'package:ird_foundation_task/features/home/controllers/home_controller.dart';
+import 'package:ird_foundation_task/features/hadith_detail/controllers/hadith_detail/_controller.dart';
 
-class Home extends StatelessWidget {
-  HadithData hadith;
-  ChapterData chapter;
-  Home({super.key,required this.hadith, required this.chapter});
-  final controller = Get.put(HomeController());
+class HadithDetailView extends StatelessWidget {
+ final HadithData hadith;
+ final ChapterData chapter;
+  HadithDetailView({super.key,required this.hadith, required this.chapter});
+  final controller = Get.put(HadidhDetailController());
   @override
   Widget build(BuildContext context) {
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.light);
@@ -111,7 +111,7 @@ class Home extends StatelessWidget {
                                           ),
                                           TextSpan(
                                             text:
-                                                "${chapter.title}",
+                                                chapter.title,
                                             style: poppinsStyle(
                                               color: Color(0xff5D646F),
                                               lineHeight: 1.57,

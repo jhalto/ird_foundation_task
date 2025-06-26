@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
@@ -6,7 +5,7 @@ import 'package:get/get.dart';
 import 'package:ird_foundation_task/constants/app_colors.dart';
 import 'package:ird_foundation_task/constants/app_text_style.dart';
 
-class HomeController extends GetxController {
+class HadidhDetailController extends GetxController {
   void moreOption(BuildContext context) {
     showModalBottomSheet(
       shape: RoundedRectangleBorder(

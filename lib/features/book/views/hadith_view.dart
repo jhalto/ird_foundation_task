@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:ird_foundation_task/features/book/controllers/book_controller.dart';
 import 'package:ird_foundation_task/features/book/data/hadith_bn_test.dart';
-import 'package:ird_foundation_task/features/home/views/home.dart';
+import 'package:ird_foundation_task/features/hadith_detail/views/hadith_detail_view.dart';
 import 'package:ird_foundation_task/constants/app_colors.dart';
 import 'package:ird_foundation_task/constants/app_text_style.dart';
 
@@ -42,7 +42,7 @@ class HadithView extends StatelessWidget {
 
             return GestureDetector(
               onTap: () {
-                Get.to(() => Home(
+                Get.to(() => HadithDetailView(
                       hadith: hadith,
                       chapter: chapterData,
                     ));
