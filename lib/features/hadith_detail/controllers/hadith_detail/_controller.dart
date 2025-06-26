@@ -46,7 +46,6 @@ class HadidhDetailController extends GetxController {
               ),
               SizedBox(height: 20.h,),
               Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   SvgPicture.asset("assets/icons/paper-plane (1) 1.svg"),
                   SizedBox(
@@ -59,11 +58,118 @@ class HadidhDetailController extends GetxController {
                   ),)
                 ],
               ),
+              SizedBox(height: 24,),
               Row(
                 children: [
-
+                  SvgPicture.asset("assets/icons/bookmark (2) 1.svg"),
+                  SizedBox(
+                    width: 15,
+                  ),
+                  Text("Add to Collection",style: poppinsStyle(
+                    fontWeight: FontWeight.w500,
+                    lineHeight: 1.2,
+                    color: Color(0xff5D646F)
+                  ),)
                 ],
-              )
+              ),
+              SizedBox(height: 24,),
+              Row(
+                children: [
+                  SvgPicture.asset("assets/icons/copy 1.svg"),
+                  SizedBox(
+                    width: 15,
+                  ),
+                  Text("Bangla Copy",style: poppinsStyle(
+                    fontWeight: FontWeight.w500,
+                    lineHeight: 1.2,
+                    color: Color(0xff5D646F)
+                  ),)
+                ],
+              ),
+              SizedBox(height: 24,),
+              Row(
+                children: [
+                  SvgPicture.asset("assets/icons/copy 1.svg"),
+                  SizedBox(
+                    width: 15,
+                  ),
+                  Text("English Copy",style: poppinsStyle(
+                    fontWeight: FontWeight.w500,
+                    lineHeight: 1.2,
+                    color: Color(0xff5D646F)
+                  ),)
+                ],
+              ),
+              SizedBox(height: 24,),
+              Row(
+                children: [
+                  SvgPicture.asset("assets/icons/copy 1.svg"),
+                  SizedBox(
+                    width: 15,
+                  ),
+                  Text("Arabic Copy",style: poppinsStyle(
+                    fontWeight: FontWeight.w500,
+                    lineHeight: 1.2,
+                    color: Color(0xff5D646F)
+                  ),)
+                ],
+              ),
+              SizedBox(height: 24,),
+              Row(
+                children: [
+                  SvgPicture.asset("assets/icons/add.svg"),
+                  SizedBox(
+                    width: 15,
+                  ),
+                  Text("Add Hifz",style: poppinsStyle(
+                    fontWeight: FontWeight.w500,
+                    lineHeight: 1.2,
+                    color: Color(0xff5D646F)
+                  ),)
+                ],
+              ),
+              SizedBox(height: 24,),
+              Row(
+                children: [
+                  SvgPicture.asset("assets/icons/add.svg"),
+                  SizedBox(
+                    width: 15,
+                  ),
+                  Text("Add Note",style: poppinsStyle(
+                    fontWeight: FontWeight.w500,
+                    lineHeight: 1.2,
+                    color: Color(0xff5D646F)
+                  ),)
+                ],
+              ),
+              SizedBox(height: 24,),
+              Row(
+                children: [
+                  SvgPicture.asset("assets/icons/share 1.svg"),
+                  SizedBox(
+                    width: 15,
+                  ),
+                  Text("Share",style: poppinsStyle(
+                    fontWeight: FontWeight.w500,
+                    lineHeight: 1.2,
+                    color: Color(0xff5D646F)
+                  ),)
+                ],
+              ),
+              SizedBox(height: 24,),
+              Row(
+                children: [
+                  SvgPicture.asset("assets/icons/exclamation 1.svg"),
+                  SizedBox(
+                    width: 15,
+                  ),
+                  Text("Report",style: poppinsStyle(
+                    fontWeight: FontWeight.w500,
+                    lineHeight: 1.2,
+                    color: Color(0xff5D646F)
+                  ),)
+                ],
+              ),
             ],
           ),
         );

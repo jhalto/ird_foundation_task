@@ -128,7 +128,7 @@ class HadithDetailView extends StatelessWidget {
                                     ),
                                     SizedBox(height: 10),
                                     Text(
-                                      hadith.note??"",
+                                      "n publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
                                       style: interStyle(
                                         color: Color.fromRGBO(53, 53, 53, 0.50),
                                         lineHeight: 1.5,
@@ -268,7 +268,7 @@ class HadithDetailView extends StatelessWidget {
                                     ),
                                     SizedBox(height: 10),
                                     Text(
-                                      hadith.note??'',
+                                      'n publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.',
                                       style: interStyle(
                                         fontWeight: FontWeight.w400,
                                         lineHeight: 1.42,
@@ -277,7 +277,7 @@ class HadithDetailView extends StatelessWidget {
                                     ),
                                     SizedBox(height: 20),
                                     Text(
-                                      hadith.note??"(See also 51, 2681, 2804, 2941, 2978, 3174, 4553, 5980, 6260, 7196, 7541) (Modern Publication: 6, Islamic Foundation: 6)",
+                                      "(See also 51, 2681, 2804, 2941, 2978, 3174, 4553, 5980, 6260, 7196, 7541) (Modern Publication: 6, Islamic Foundation: 6)",
                                       style: interStyle(
                                         fontSize: 12,
                                         fontWeight: FontWeight.w400,

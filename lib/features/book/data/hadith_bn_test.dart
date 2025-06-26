@@ -33,7 +33,7 @@ class HadithDatabase extends _$HadithDatabase {
   @override
   int get schemaVersion => 1;
 
-    Future<List<Book>> getAllBooks() => select(books).get();
+  Future<List<Book>> getAllBooks() => select(books).get();
 
   Future<List<ChapterData>> getChaptersByBookId(int bookId) {
   return (select(chapter)..where((c) => c.bookId.equals(bookId))).get();
